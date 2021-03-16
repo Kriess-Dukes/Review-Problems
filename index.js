@@ -67,7 +67,11 @@ factorial(8); // => 40320 (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)
 
 function factorial(number){
 //CODE BELOW HERE
+function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+}
 
+alert( factorial(9) ); // 362880
 
 
 //CODE ABOVE HERE
@@ -89,9 +93,10 @@ reverseString('Hello, World!'); // => '!dlroW ,olleH'
 
 function reverseString(string){
   //CODE BELOW HERE
-
-
-
+ function reverseString('Naruto Drip Sauce, No Cap') 
+ return ('paC oN, ecuaS pirD oturaN)
+ 
+ console log(reverseString)
   //CODE ABOVE HERE
 }
 
@@ -108,7 +113,9 @@ var myArray = [1,2,3,4,5]
 
 arraySum(myArray) => 15
 */
-function arraySum(array){
-   
+function arraySubtract(array){
+  var myArray = [1,2,3,4,5,6,7,8] 
+    arraySubtract(myArray) => -34
     
+    console.log(arraySubtract)
 }
